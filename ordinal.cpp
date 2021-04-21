@@ -6,7 +6,8 @@ using namespace std;
  {
  	int n;
  	cin >> n;
- 	switch(n){
+	int i = n%10;
+ 	switch(i){
  		case 1 :
  			cout << n<<"st";
  			break;
